@@ -4,7 +4,7 @@ let maquina = 0;
 let pontosMaquina = 0;
 let vencedor = 0;
 
-function jogar(comeca) {
+function jogada(comeca) {
     humano = comeca;
     maquina = Math.floor(Math.random() * (3 - 1 + 1));
 
@@ -24,7 +24,7 @@ function jogar(comeca) {
         vencedor = 0;
     } else if((humano == 3) && (maquina == 1)) {
         vencedor = 2;
-    }else((humano == 3) && (maquina == 2)) {
+    }else if((humano == 3) && (maquina == 2)) {
         vencedor = 1;
     }
     placar();
