@@ -1,0 +1,86 @@
+#h1 {
+  text-align: center;
+}
+
+.titComputador {
+  text-align: center;
+}
+
+.titJogador {
+  text-align: center;
+}
+
+.setion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.jogador  {
+  flex-grow: 1;
+  border-radius: 5px;
+  width: 200px;
+  padding: 20px;
+  margin: 1px;
+  border: 2px solid
+}
+
+.computador  {  
+  flex-grow: 1;
+  border-radius: 5px;
+  width: 200px;
+  padding: 20px;
+  margin: 1px;
+  border: 2px solid
+}
+
+.jogador ul {
+  text-align: center;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.computador ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#optionJogador {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#optionComputador {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.jogador #optionJogador  li {
+  display: inline;
+}
+
+.computador #optionComputador  li {
+  display: inline;
+}
+
+.jogador .image1 {
+  max-width: 80px;
+}
+
+.computador .image2 {
+  max-width: 80px;
+}
+
+#msg {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  border: 2px solid
+}
+
+
